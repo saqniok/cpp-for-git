@@ -78,7 +78,6 @@
 
 **C++**		-	Может быть Segmentation fault, иногда Aborted, зависит от ОС
 	_Например:_ 
-
 	```cpp
 	#include <iostream>
 
