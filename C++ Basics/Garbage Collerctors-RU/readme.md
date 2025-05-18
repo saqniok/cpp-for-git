@@ -1,5 +1,5 @@
 # Memory Leak
-## Приер
+## Пример
 ```cpp
 void f() {
     int* = new int(5);
