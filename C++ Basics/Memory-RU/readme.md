@@ -1,4 +1,4 @@
-﻿# 2.2 Kinds of Memory
+﻿# Kinds of Memory
 
 ---
 
@@ -66,12 +66,25 @@
 ## ⚠️ Stack Overflow в разных языках
 
 Язык	Сообщение об ошибке
-**Python**		*RecursionError: maximum recursion depth exceeded*
+**Python**		RecursionError: maximum recursion depth exceeded
 
-**Java**		*java.lang.StackOverflowError*
+**Java**		java.lang.StackOverflowError
 
-**C#**			*System.StackOverflowException*
+**C#**			System.StackOverflowException
 
-**JavaScript**	*RangeError: Maximum call stack size exceeded*
+**JavaScript**	RangeError: Maximum call stack size exceeded
 
-**C++**			*Может быть Segmentation fault, иногда Aborted, зависит от ОС*
+**C++**			Может быть Segmentation fault, иногда Aborted, зависит от ОС
+```cpp
+#include <iostream>
+
+void f(int x) {
+	static int x = 0;
+	std::cout << ++x << '\n';
+	f(x);
+}
+
+int main() {
+	f(0);
+}
+```

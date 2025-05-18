@@ -6,3 +6,7 @@ void f(int x) {
 	f(x);
 }
 
+int main() {
+	f(0);
+}
+
