@@ -77,7 +77,8 @@
 **JavaScript** -	RangeError: Maximum call stack size exceeded
 
 **C++**		-	Может быть Segmentation fault, иногда Aborted, зависит от ОС
-	_Например:_ 
+	_Например:_  
+
 	```cpp
 	#include <iostream>
 
