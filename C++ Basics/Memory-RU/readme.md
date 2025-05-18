@@ -80,7 +80,6 @@
 
 *Например:*
 
-	```cpp
 	#include <iostream>
 
 	void f(int x) {
@@ -92,4 +91,3 @@
 	int main() {
 		f(0);
 	}
-	```
